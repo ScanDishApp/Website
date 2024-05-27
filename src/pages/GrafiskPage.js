@@ -8,9 +8,12 @@ import Text from '../assets/Profilering/sdCol.png';
 
 import Mobin from '../assets/Profilering/sdMobile.png';
 import Problem from '../assets/Profilering/sdProb.png';
+import Rainbow from '../assets/Profilering/sdRain.png';
+
 import Credit from '../assets/Profilering/sdCredit.png';
 import Mock1 from '../assets/Profilering/sdMock.png';
 import Mock3 from '../assets/Profilering/sdMock3.png';
+import Mock5 from '../assets/Profilering/sdMockup5.png';
 
 import divider from '../assets/Profilering/divider.png';
 
@@ -38,15 +41,18 @@ const Visuell = () => {
       </div>
       <div className='gapper'></div>
 
+      
       <div className="sd-container">
-
         <img src={Problem} alt="problem" className="sd-image" />
         <img src={Logo} alt="logo" className="sd-image" />
         <img src={Text} alt="text" className="sd-image" />
+        <img src={Rainbow} alt="mock" className="sd-image" />
+
         <img src={Mobin} alt="mobin" className="sd-image" />
-        <img src={Credit} alt="problem" className="sd-image" />
-        <img src={Mock1} alt="problem" className="sd-image" />
-        <img src={Mock3} alt="problem" className="sd-image" />
+        <img src={Credit} alt="credit" className="sd-image" />
+        <img src={Mock1} alt="mock" className="sd-image" />
+        <img src={Mock3} alt="mock" className="sd-image" />
+        <img src={Mock5} alt="mock" className="sd-image" />
 
       </div>
 

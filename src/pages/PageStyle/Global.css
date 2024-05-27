@@ -41,7 +41,10 @@ padding: 0px;}
 }
 
 .gapper{
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+.gap-adjuster{
+  margin-bottom: 10px;
 }
 
 .extra-content {

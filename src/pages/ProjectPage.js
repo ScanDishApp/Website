@@ -36,6 +36,8 @@ const Prosjekt = () => {
       <div className="sod-container">
         <img src={divider} alt="divider" className="sdDivider" />
       </div>
+      <div className='gap-adjuster'></div>
+
 
       <div className="additional-content">
         <h2>Bakgrunn</h2>
