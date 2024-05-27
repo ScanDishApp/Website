@@ -1,0 +1,84 @@
+.hero-header-sub {
+  
+    margin-top: 50px;
+    color: #e6f8f3;
+    padding: 0px;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    margin-bottom: px;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+
+  .sdDivider{
+width: 20%; 
+padding: 0px; 
+margin-top: 40px;}
+
+p {
+  padding-left: 22%;
+  padding-right: 22%;
+}
+
+@media (max-width: 768px) {
+ p{
+margin: 0px;  
+padding: 0px;}
+}
+
+.sod-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spacer{
+  margin: 50px;
+}
+
+.gapper{
+  margin-bottom: 20px;
+}
+
+.extra-content {
+  padding-top: 0px;
+  background-color: #222; 
+  color: #e6f8f3;
+  font-family: 'DM Serif Display', serif;
+  margin-bottom: 0px;
+}
+
+.extra-content{
+  justify-content: center;
+  text-align: center; 
+}
+
+.extra-content h2{
+  color: #9bba59;
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.extra-content p{
+  color: #e6f8f3;
+    font-family: 'helvetica', sans-serif;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .sdDivider {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+}
+
+.bottom-spacer{
+  margin-bottom: 100px;
+}

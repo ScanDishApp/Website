@@ -1,0 +1,86 @@
+/* Header.css */
+
+.header {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Ensure header is relative for positioning dropdown */
+  z-index: 1000; /* Ensure it stays above other content */
+  
+
+}
+
+.logo {
+  width: 3.3rem; /* Adjust the width as needed */
+  height: auto; /* This will maintain the aspect ratio */
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 20px;
+  color: #9bba59;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+
+
+/* Define the hover effect */
+.nav ul li:hover {
+  transform: scale(1.1); /* Scale the list item to 1.1 times its original size */
+  color: #e6f8f3;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #e6f8f3;
+
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu-toggle {
+  display: none; /* Hide toggle button by default */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show the toggle button on mobile */
+    cursor: pointer;
+    color: #e6f8f3;
+    font-size: 1.5rem; /* Increase size for better tap target */
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%; /* Position dropdown below the header */
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Background color to match header */
+    display: none; /* Hide the menu by default */
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .nav.active {
+    display: flex; /* Show the menu when active */
+  }
+
+  .nav ul {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .nav ul li {
+    margin: 10px 0; /* Spacing between items */
+    text-align: center; /* Center align text */
+  }
+}
