@@ -8,7 +8,8 @@
   align-items: center;
   position: relative; /* Ensure header is relative for positioning dropdown */
   z-index: 1000; /* Ensure it stays above other content */
-  
+  font-family: 'DM Serif Display', serif;
+
 
 }
 
@@ -22,26 +23,28 @@
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: 'DM Serif Display', serif;
+
 }
 
 .nav ul li {
   margin-right: 20px;
   color: #9bba59;
-  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+  transition: transform 0.3s ease-in-out;
+  font-family: 'DM Serif Display', serif;
+
 }
 
 
-
-/* Define the hover effect */
 .nav ul li:hover {
-  transform: scale(1.1); /* Scale the list item to 1.1 times its original size */
+  transform: scale(1.1);
   color: #e6f8f3;
 }
 
 .nav ul li a {
   text-decoration: none;
   color: #e6f8f3;
-
+  font-family: 'DM Serif Display', serif;
 }
 
 .nav ul li a:hover {

@@ -57,7 +57,7 @@ animation: fadeIn 2s ease-in-out forwards;
   cursor: pointer; 
   margin-top: 20px; 
   font-family: 'DM Serif Display', serif;
-  margin-bottom: 30vh;
+  margin-bottom: 35vh;
   opacity: 0; 
   animation: fadeIn 2s ease-in-out forwards; 
   transition: background-color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); 
