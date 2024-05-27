@@ -14,6 +14,7 @@ import Credit from '../assets/Profilering/sdCredit.png';
 import Mock1 from '../assets/Profilering/sdMock.png';
 import Mock3 from '../assets/Profilering/sdMock3.png';
 import Mock5 from '../assets/Profilering/sdMockup5.png';
+import Mock6 from '../assets/Profilering/sdMock6.png';
 
 import divider from '../assets/Profilering/divider.png';
 
@@ -53,6 +54,7 @@ const Visuell = () => {
         <img src={Mock1} alt="mock" className="sd-image" />
         <img src={Mock3} alt="mock" className="sd-image" />
         <img src={Mock5} alt="mock" className="sd-image" />
+        <img src={Mock6} alt="mock" className="sd-image" />
 
       </div>
 

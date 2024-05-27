@@ -27,7 +27,7 @@ const Prosjekt = () => {
 
   return (
     <div className="container">
-      <h1 className='hero-header-sub'>- Prosjektet -</h1>
+      <h1 className='hero-header-sub'>- Prosjekt -</h1>
 
       <div className="bg-container">
         <img src={mock4} alt="background" className="bg-image" />

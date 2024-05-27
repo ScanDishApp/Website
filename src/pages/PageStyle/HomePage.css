@@ -181,7 +181,7 @@ animation: fadeIn 2s ease-in-out forwards;
 }
 
 .additional-content h2{
-  color: #9bba59;
+  color: #e6f8f3;
   font-size: 32px;
 }
 .additional-content p{
@@ -191,7 +191,7 @@ animation: fadeIn 2s ease-in-out forwards;
 }
 
 .granny-image {
-  width: 56%; 
+  width: 62%; 
   height: auto; 
   object-fit: cover; 
   border-radius: 20px;

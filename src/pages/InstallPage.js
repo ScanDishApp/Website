@@ -21,7 +21,7 @@ const LastNed = () => {
 
   return (
     <div className="container">
-      <h1 className="hero-header-sub"> - Installering - </h1>
+      <h1 className="hero-header-sub"> - Last ned - </h1>
 
       <div className="bg-container">
         <img src={pho} alt="background" className="bg-image" />

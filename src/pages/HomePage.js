@@ -6,6 +6,8 @@ import camera from '../comp/camera.png'; // Import the logo image
 import copy from '../comp/write.png'; // Import the logo image
 import calculator from '../comp/cal.png'; // Import the logo image
 import down from '../comp/download.png'; // Import the logo image
+import pho from '../assets/Profilering/sdQR.png';
+
 const HomePage = () => {
   return (
     <div className="container-first">
@@ -19,8 +21,13 @@ const HomePage = () => {
       </a>
       <p className='divider'>ScanDish</p>
 
+      <h1 className="hero-header-sub"> - Velkommen - </h1>
+
+<div className="bg-container">
+  <img src={pho} alt="background" className="bg-image" />
+</div>
+
       <div className="additional-content">
-        <h2>Velkommen til ScanDish</h2>
         
         <p>Scandish er et bachelor prosjekt utført av: Stine Marie Kvist, Danny Nguyen Le og Kabi Mohamed - ved Universitetet i Agder.
 
