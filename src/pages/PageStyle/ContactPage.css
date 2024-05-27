@@ -4,25 +4,23 @@
     color: #e6f8f3;
     padding: 0px;
     font-size: 32px;
-    text-align: center; /* Centers the text horizontally */
+    text-align: center; 
     display: flex;
     margin-bottom: px;
-    justify-content: center; /* Centers the content horizontally */
+    justify-content: center;
   }
 
 
-
-/* CSS */
 .social-image {
-  width: 50px; /* Set the desired width */
-  height: auto; /* Maintain aspect ratio */
+  width: 50px; 
+  height: auto; 
 }
 
 
 .cards-pro {
   display: flex;
   justify-content: space-around;
-  margin: 0 -10px; /* Margin from sides of the screen */
+  margin: 0 -10px; 
 }
 
 .card-pro {
@@ -31,7 +29,7 @@
     border-radius: 20px;
     text-align: center;
     width: 30%;
-    margin: 0 10px; /* Increase the margin value */
+    margin: 0 10px; 
     border: none;
     padding-bottom: 0px;
     padding-top: 40px;
@@ -53,42 +51,39 @@
   }
 
   .card-pro {
-    width: 100%; /* Adjust the width as needed */
+    width: 100%; 
     margin-bottom: 20px;
     
   }
 }
 
 
-/* Add these styles to your existing CSS file */
 
-/* Style for the icon row */
+
+
 .icon-row {
-  display: flex; /* Make icons appear in a row */
-  justify-content: center; /* Center icons horizontally */
-  margin-top: 20px; /* Adjust margin as needed */
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
 }
 
-/* Style for individual icons */
 .icon {
-  width: 50px; /* Set the width of the icons */
-  height: 50px; /* Set the height of the icons */
-  margin: 0 10px; /* Adjust margin between icons */
+  width: 50px; 
+  height: 50px; 
+  margin: 0 10px; 
 }
-
-/* Add these styles to your existing CSS file */
 
 .bg-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 
 .bg-image {
-  width: 54%; /* Adjust the width to fit the container */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  width: 54%; 
+  height: auto;
+  object-fit: cover; 
   border-radius: 20px;
 }
 
@@ -96,7 +91,7 @@
 
 @media (max-width: 768px) {
   .bg-image {
-    width: 90%; /* Adjust the width for mobile devices */
-    margin-bottom: 30px; /* Adjust the margin for mobile devices */
+    width: 90%; 
+    margin-bottom: 30px;
   }
 }

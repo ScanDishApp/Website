@@ -4,42 +4,42 @@
 }
 
 .dropdown-container{
-  text-align: center; /* Center horizontally */
+  text-align: center; 
 }
 
 .bg-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
   }
   
   
   .bg-image {
 
-    width: 54%; /* Adjust the width to fit the container */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    width: 54%; 
+    height: auto;
+    object-fit: cover; 
     border-radius: 20px;
-    opacity: 0; /* Initially set opacity to 0 for fade-in effect */
-    animation: fadeIn 1s ease-in-out forwards; /* Apply fade-in animation */
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; 
   }
 
   .sd-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Align items vertically */
-    padding: 20px; /* Add padding for better spacing */
+    flex-direction: column; 
+    padding: 20px; 
     padding-top:30px;
   }
   
   .sd-image {
-    width: 100%; /* Default width for images */
-    max-width: 100%; /* Ensure images don't exceed container width */
+    width: 100%; 
+    max-width: 100%; 
     height: auto;
     object-fit: cover;
     border-radius: 20px;
-    margin-bottom: 10px; /* Optional spacing between images */
+    margin-bottom: 10px; 
   }
 
   @media only screen and (min-width: 768px) {
@@ -50,21 +50,19 @@
 
   @media (max-width: 768px) {
     .bg-image {
-      width: 90%; /* Adjust the width for mobile devices */
-      margin-bottom: 0px; /* Adjust the margin for mobile devices */
+      width: 90%; 
+      margin-bottom: 0px; 
     }
   }
   
   
-  
-  
- /* GrafiskPage.css */
+
 .custom-dropdown {
     margin-top: 25px;
     color: white;
     position: relative;
     display: inline-block;
-    text-align: center; /* Center horizontally */
+    text-align: center; 
     font-size: 10px;
     margin-bottom: 10px;
 
@@ -73,20 +71,20 @@
   .dropdown-header {
     font-size: 24px;
     font-weight: bold;
-    color: #9bba59; /* Blue background color */
-    margin: 0; /* Reset margin for all children elements */
-    padding: 0; /* Reset padding for all children elements */
+    color: #9bba59; 
+    margin: 0; 
+    padding: 0; 
 
   }
   
 
   .vp-down-info p{
-    font-family: Helvetica, Arial, sans-serif; /* Use Helvetica font */
+    font-family: Helvetica, Arial, sans-serif; 
     font-size: 50px;
   }
   
 
   .vp-info p{
-    font-family: Helvetica, Arial, sans-serif; /* Use Helvetica font */
+    font-family: Helvetica, Arial, sans-serif; 
     font-size: 10px;
   }

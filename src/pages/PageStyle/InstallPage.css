@@ -9,7 +9,7 @@
     align-items: center;
     font-weight: lighter;
     color: #222;
-
+    font-family: 'helvetica', sans-serif;
   }
   
   .browser-icon-container {
@@ -39,7 +39,7 @@
   
   @media only screen and (max-width: 600px) {
     .browser-tit {
-      width: calc(100% - 20px); /* Take full width of the viewport */
+      width: calc(100% - 20px);
     }
   
     .browser-icon-container {

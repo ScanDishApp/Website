@@ -15,7 +15,7 @@ import postiqo from '../assets/icons/postiqo.png';
 import discord from '../assets/icons/discord.png';
 
 import divider from '../assets/Profilering/divider.png';
-import mock4 from '../assets/Profilering/sdMock.png';
+import mock4 from '../assets/Profilering/sdPho.png';
 import arch from '../assets/misc/sdArch.png';
 
 const Prosjekt = () => {
