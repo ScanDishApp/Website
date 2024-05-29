@@ -1,4 +1,3 @@
-import './PageStyle/ContactPage.css';
 import './PageStyle/GrafiskPage.css'; 
 import './PageStyle/InstallPage.css'; 
 
@@ -13,8 +12,9 @@ import chrome from '../assets/icons/chrome.png';
 import opera from '../assets/icons/opera.png';
 import samsung from '../assets/icons/samsung.png';
 import add from '../assets/icons/add.png';
-
 import divider from '../assets/Profilering/divider.png';
+
+import goHere from '../assets/Profilering/sdGohere.png';
 
 
 const LastNed = () => {
@@ -39,6 +39,8 @@ const LastNed = () => {
 
         
       <div className="sd-container">
+      <img src={goHere} alt="source" className="sd-image" />
+
       <img src={pwatit} alt="problem" className="sd-image" />
         <img src={downApple} alt="problem" className="sd-image" />
 

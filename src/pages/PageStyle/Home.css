@@ -1,0 +1,146 @@
+.home-screen {
+    text-align: center;
+    position: relative; 
+    margin-bottom: 100px    ;
+  }
+  
+  .cover-photo {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute; 
+    top: 10%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  .Home-title {
+    color: #e6f8f3;
+    font-size: 80px;
+    margin: 0; 
+    
+    animation: fadeIn 1s ease-in-out forwards; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  .Home-title:hover {
+    transform: scale(1.1); 
+  }
+  
+  .content p {
+    color: #e6f8f3;
+    margin-top: -15px; 
+  }
+  
+  .new-content {
+    margin-top: 0 20px;
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1); 
+  }
+
+  }
+  .container {
+    margin: 0 20px; 
+  }
+  
+  .new-content {
+    margin-top: 20px; 
+  }
+  
+  .additional-image {
+    width: 100%; 
+    max-width: 56%; 
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .mascot-image{
+    width: 56%;
+    border-radius: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .mascot-image {
+      margin-top: 20px;
+      width: 100%; 
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    p{
+      margin-top: 20px;
+      width: 100%; 
+    }
+  }
+  
+.button-cover{
+    background-color: #9bba59; 
+  color: #Fff;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 20px; 
+  cursor: pointer; 
+  font-family: 'DM Serif Display', serif;
+  opacity: 0; 
+  box-shadow: 0px 0px 1cap rgba(144, 173, 151, 0.407); 
+  animation: fadeIn 2s ease-in-out forwards; 
+  transition: background-color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); 
+}
+.button-cover:hover {
+    transform: scale(0.9);
+    background-color: #dfe79f; 
+    color: #222;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .additional-image {
+      max-width: 100%; 
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .Home-title {
+        margin-top: -220px !important; 
+    }
+  }
+
+
+  .granny-image {
+    width: 56%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 767px) {
+    .granny-image {
+      width: 100%; 
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+    .button-cover {
+      margin-top: 15px;
+    }
+  }
+  
+
+  .ins-down p{
+    margin: 5px;
+    font-size: 18px;
+    color: #e6f8f3;
+    font-family: 'helvetica', sans-serif;
+
+  }

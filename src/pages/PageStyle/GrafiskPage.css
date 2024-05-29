@@ -8,10 +8,11 @@
 }
 
 .bg-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-  }
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
   
   
   .bg-image {
@@ -29,33 +30,56 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    padding: 20px; 
-    padding-top:30px;
+width: 100%;;
+
   }
+
+  .vis-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.sd-image {
+  width: 160%; 
+  max-width: 180%; 
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+
+
+
   
   .sd-image {
-    width: 100%; 
-    max-width: 100%; 
+    width: 60%; 
     height: auto;
     object-fit: cover;
     border-radius: 20px;
-    margin-bottom: 10px; 
+    margin-top: 10px;
   }
 
-  @media only screen and (min-width: 768px) {
+   
+  @media (max-width: 768px) {
     .sd-image {
-      width: 56%; 
+      width: 100%; 
+
     }
   }
-
+ 
   @media (max-width: 768px) {
     .bg-image {
-      width: 90%; 
-      margin-bottom: 0px; 
+      width: 100%; 
+
     }
   }
   
-  
+
 
 .custom-dropdown {
     margin-top: 25px;

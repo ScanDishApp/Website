@@ -29,8 +29,8 @@ const Header = () => {
           <li onClick={() => handleNavigation('/')} style={{ cursor: 'pointer' }}>Hjem</li>
           <li onClick={() => handleNavigation('/Visuell')} style={{ cursor: 'pointer' }}>Visuell Profil</li>
           <li onClick={() => handleNavigation('/Prosjekt')} style={{ cursor: 'pointer' }}>Prosjekt</li>
-          <li onClick={() => handleNavigation('/LastNed')} style={{ cursor: 'pointer' }}> Last Ned  </li>
-          <li onClick={() => handleNavigation('/Informasjon')} style={{ cursor: 'pointer' }}>Info</li>
+          <li onClick={() => handleNavigation('/Team')} style={{ cursor: 'pointer' }}>Team</li>
+          <li className='download-header' onClick={() => handleNavigation('/LastNed')} style={{ cursor: 'pointer' }}> Last ned </li>
 
         </ul>
       </nav>

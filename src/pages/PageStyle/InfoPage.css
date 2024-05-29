@@ -26,7 +26,9 @@
 .cards-info {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+
   }
   
   .card-info{
@@ -34,9 +36,9 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding:  20px;
     text-align: center;
-    width: 30%;  
+    width: 40%;  
     margin: 0 10px;
 
     border: none;
@@ -77,7 +79,7 @@
     }
   
     .card-info {
-      width: 100%; 
+      width: 115%; 
       margin-bottom: 20px;
     }
   }

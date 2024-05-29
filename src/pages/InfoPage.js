@@ -8,14 +8,10 @@ import kabi from '../assets/brown.png'
 import danny from '../assets/dan.png'
 import stine from '../assets/ice.png'
 import email from '../assets/icons/mail.png'
-const Informasjon = () => {
+const Team = () => {
   return (
     <div className="container">
-      <h1 className='hero-header-sub'>Informasjon</h1>
-
-
-
-      <h1 className='hero-card-header'>Team</h1>
+      <h1 className='hero-header-sub'>Team</h1>
 
       <div className="cards-info">
         <div className="card-info">
@@ -74,4 +70,4 @@ const Informasjon = () => {
   );
 };
 
-export default Informasjon;
+export default Team;

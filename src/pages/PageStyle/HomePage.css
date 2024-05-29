@@ -63,11 +63,6 @@ animation: fadeIn 2s ease-in-out forwards;
   transition: background-color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); 
 }
 
-/* Add hover animation */
-.button-header:hover {
-  background-color: #f2c449; 
-  transform: scale(1.05); 
-}
 
 
 
@@ -94,7 +89,6 @@ animation: fadeIn 2s ease-in-out forwards;
 }
 
 .additional-content {
-  padding: 20px;
   background-color: #222;
   color: #e6f8f3;
   font-family: 'DM Serif Display', serif;

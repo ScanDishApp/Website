@@ -85,3 +85,25 @@ font-weight: bold;
     text-align: center; 
   }
 }
+
+
+.download-header{
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff !important;
+  background-color: #9bba59;
+  ;
+  
+  }
+
+  @media (max-width: 600px) {
+    .download-header {
+      border-radius: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      color: #9bba59 !important;
+      background-color: transparent;
+      box-shadow: 0 0 0px rgba(155, 186, 89, 0.8); /* Green glow */
+    }
+  }
