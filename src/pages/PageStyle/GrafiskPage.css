@@ -99,16 +99,34 @@ width: 100%;;
     margin: 0; 
     padding: 0; 
 
+
   }
   
 
   .vp-down-info p{
     font-family: Helvetica, Arial, sans-serif; 
     font-size: 50px;
+    
+    
   }
   
 
-  .vp-info p{
+
+
+
+  .custom-style {
+    color: #7ba5a7;
+    font-size: 16px;
+    margin-top: 20px;
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 10px;
-  }
+
+}
+
+.custom-link {
+    color: #f3b783;
+    font-family: Helvetica, Arial, sans-serif; 
+
+    text-decoration: none;
+    font-size: 12px; 
+}
+

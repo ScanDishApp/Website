@@ -40,20 +40,17 @@ const Home = () => {
 
         <div className="cards">
             
-          {/* Card 1 */}
           <div className="card">
             <img src={camera} alt="Image" className="card-image" />
             <h3 className="card-title">Scan</h3>
             <p className="card-description">Med appen har vi gitt muligheten til å scanne oppskifter og tekster rett fra mobilen </p>
           </div>
-          {/* Card 2 */}
           <div className="card">
             <img src={copy} alt="Image" className="card-image" />
             <h3 className="card-title">Noter</h3>
             <p className="card-description">Noter, lagre og organiser ned dine oppskirfter rett i appen.  </p>
 
           </div>
-          {/* Card 3 */}
           <div className="card">
             <img src={calculator} alt="Image" className="card-image" />
             <h3 className="card-title">Verktøy</h3>

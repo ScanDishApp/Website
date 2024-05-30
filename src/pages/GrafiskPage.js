@@ -81,25 +81,22 @@ const Visuell = () => {
 
 
             <div className="additional-content">
-        <h2>Offisell design manual</h2>
-        
-    <ul>
-    </ul>
-        </div>
-
-
-<div className='dropdown-container'>
+            <div className='dropdown-container'>
       <div className="custom-dropdown">
         <div className="dropdown-header" onClick={() => setShowDropdown(!showDropdown)}>
-          <span>{selectedOption || '> Informasjon <'}</span>
+          <span>{selectedOption || '> Vedlegg <'}</span>
           <i className={`arrow-icon ${showDropdown ? 'up' : 'down'}`}></i>
         </div>
         {showDropdown && (
           <div className="dropdown-options">
-            <div className="vp-info" onClick={() => handleOptionClick('info')}>
-              <p>Grafisk profil, designet for utviklingen av ScanDish mobil app og nettside</p>
-              <p>Designet i Figma & Adobe Illustrator</p>
-              <p>- ScanDish -</p>
+            <div className="vp-info" onClick={() => handleOptionClick('Vedlegg')}>
+              <br></br>
+            <a href="https://drive.google.com/file/d/1cgD867DMmJ7Ss6vM3wrpNum6DKNwLnvM/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok</a>
+            <br></br>              <br></br>
+
+
+            <a href="https://drive.google.com/file/d/1cgD867DMmJ7Ss6vM3wrpNum6DKNwLnvM/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok</a>
+
             </div>
           </div>
 
@@ -109,6 +106,11 @@ const Visuell = () => {
 
       </div>
       </div>
+
+        </div>
+
+
+
     </div>
   );
 };
