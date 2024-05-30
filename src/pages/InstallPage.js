@@ -29,10 +29,7 @@ const LastNed = () => {
 
   
   
-      <div className="sod-container">
-        <img src={divider} alt="divider" className="sdDivider" />
-      </div>
-
+ 
 
       <div className='gapper'></div>
 

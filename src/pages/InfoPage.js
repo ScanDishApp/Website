@@ -1,5 +1,5 @@
 import React from 'react';
-import './PageStyle/InfoPage.css'; // Import the CSS file
+import './PageStyle/InfoPage.css'; 
 
 import insta from '../comp/instagram.png'
 import linked from '../comp/linkedin.png'

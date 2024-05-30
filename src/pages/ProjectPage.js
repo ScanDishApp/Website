@@ -35,9 +35,7 @@ const Prosjekt = () => {
         <img src={mock4} alt="background" className="bg-image" />
       </div>
 
-      <div className="sod-container">
-        <img src={divider} alt="divider" className="sdDivider" />
-      </div>
+
       <div className='gap-adjuster'></div>
 
 

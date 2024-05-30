@@ -41,6 +41,8 @@ width: 100%;;
     flex-direction: column; 
     width: 100%; 
     margin: 0 auto; 
+    animation: fadeIn 1s ease-in-out forwards;
+
 }
 
 .sd-image {

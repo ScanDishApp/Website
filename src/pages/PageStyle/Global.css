@@ -12,10 +12,7 @@
     animation: fadeIn 1s ease-in-out forwards;
   }
 
-  .sdDivider{
-width: 20%; 
-padding: 0px; 
-margin-top: 40px;}
+
 
 p {
   padding-left: 22%;
@@ -75,13 +72,6 @@ padding: 0px;}
     font-size: 18px;
 }
 
-@media (max-width: 768px) {
-  .sdDivider {
-    width: 50%;
-    margin-top: 20px;
-    margin-bottom: -20px;
-  }
-}
 
 .bottom-spacer{
   margin-bottom: 110px;

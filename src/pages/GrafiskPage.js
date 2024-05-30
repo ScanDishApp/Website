@@ -44,12 +44,10 @@ const Visuell = () => {
         <img src={background} alt="background" className="bg-image" />
       </div>
 
-      <div className="sod-container">
-        <img src={divider} alt="divider" className="sdDivider" />
-      </div>
+
       <div className='gapper'></div>
 
-      
+
       <div className="vis-container">
 
         <img src={Problem} alt="problem" className="sd-image" />
@@ -108,7 +106,6 @@ const Visuell = () => {
       </div>
 
         </div>
-
 
 
     </div>

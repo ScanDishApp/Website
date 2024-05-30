@@ -92,7 +92,8 @@ animation: fadeIn 2s ease-in-out forwards;
   background-color: #222;
   color: #e6f8f3;
   font-family: 'DM Serif Display', serif;
-  margin-top: -100;
+  animation: fadeIn 1s ease-in-out forwards;
+
 }
 
 .divider{
