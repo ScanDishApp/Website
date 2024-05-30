@@ -190,3 +190,60 @@
     font-family: 'helvetica', sans-serif;
 
   }
+
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 -10px; 
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin: 0 10px;
+    border: none;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+
+.card-image {
+  width: 100px;
+  border-radius: 8px;
+  
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-description{
+  font-size: 22px;
+  color: #e44800;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-bottom: -20px;
+  justify-content: center; 
+  text-align: center; 
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .card {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+}

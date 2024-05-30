@@ -1,3 +1,10 @@
+body{
+  background-color: #222;
+  font-family: 'DM Serif Display', serif;
+  overflow-x: hidden;
+}
+
+
 .hero-header-sub {
   
     margin-top: 50px;
@@ -80,3 +87,66 @@ padding: 0px;}
 .Global-H2{
   font-size: 30px;
 }
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1;
+  }
+}
+.additional-content{
+  justify-content: center; 
+  text-align: center; 
+}
+
+.additional-content h2{
+  color: #e6f8f3;
+  font-size: 32px;
+}
+.additional-content p{
+  color: #e6f8f3;
+    font-family: 'helvetica', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+.ins-down p{
+  margin: 5px;
+  font-size: 18px;
+}
+
+
+
+
+.additional-content {
+  background-color: #222;
+  color: #e6f8f3;
+  font-family: 'DM Serif Display', serif;
+  animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+.divider{
+  background: #9bba59;
+  width: calc(100% - 40px);
+  padding: 23px;
+  justify-content: center; 
+  text-align: center; 
+  margin: 0;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards; 
+}
+
+
+
+
+
+
+
+
