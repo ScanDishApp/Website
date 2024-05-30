@@ -21,7 +21,7 @@
   padding: 0;
   display: flex;
   font-family: 'DM Serif Display', serif;
-font-weight: bold;
+font-weight: bold !important;
 }
 
 .nav ul li {

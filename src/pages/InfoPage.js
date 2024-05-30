@@ -3,6 +3,7 @@ import './PageStyle/InfoPage.css';
 
 import insta from '../comp/instagram.png'
 import linked from '../comp/linkedin.png'
+import team from '../assets/misc/team.png';
 
 import kabi from '../assets/brown.png'
 import danny from '../assets/dan.png'
@@ -12,6 +13,9 @@ const Team = () => {
   return (
     <div className="container">
       <h1 className='hero-header-sub'>Team</h1>
+      <div className="bg-container">
+        <img src={team} alt="background" className="bg-image" />
+      </div>
 
       <div className="cards-info">
         <div className="card-info">
@@ -27,19 +31,7 @@ const Team = () => {
         </a>
         </a>
         </div>
-        <div className="card-info">
-  <img src={danny} alt="Card 2" className="card-image-info"/>
-          <h2>Danny N. Le</h2>
-          <a href="https://www.instagram.com/dvnnyle/"alt='social' target="_blank" rel="noopener noreferrer">
-          <img src={insta} alt='social' className='social logo'/>
-          </a>
-          <a href="https://www.instagram.com/dvnnyle/" alt='social' target="_blank" rel="noopener noreferrer">
-          <img src={linked} alt='social' className='social logo'/>
-        </a>
-        <a href="mailto:dannyleyen@gmail.com" alt="email" target="_blank" rel="noopener noreferrer">
-          <img src={email} alt='social' className='social logo'/>
-        </a>
-        </div>
+
         <div className="card-info">
           <img src={kabi} alt="Card 3" className="card-image-info"/>
           <h2>Kabi Mohamed</h2>
@@ -53,6 +45,22 @@ const Team = () => {
           <img src={email} alt='social' className='social logo'/>
         </a>
         </div>
+
+
+        <div className="card-info">
+  <img src={danny} alt="Card 2" className="card-image-info"/>
+          <h2>Danny N. Le</h2>
+          <a href="https://www.instagram.com/dvnnyle/"alt='social' target="_blank" rel="noopener noreferrer">
+          <img src={insta} alt='social' className='social logo'/>
+          </a>
+          <a href="https://www.instagram.com/dvnnyle/" alt='social' target="_blank" rel="noopener noreferrer">
+          <img src={linked} alt='social' className='social logo'/>
+        </a>
+        <a href="mailto:dannyleyen@gmail.com" alt="email" target="_blank" rel="noopener noreferrer">
+          <img src={email} alt='social' className='social logo'/>
+        </a>
+        </div>
+   
         
       </div>
       

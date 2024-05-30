@@ -21,6 +21,8 @@
     font-size: 20px;
     margin-top: -20px !important;
     margin-bottom: 50px !important;
+    animation: fadeIn 1s ease-in-out ; 
+    transition: transform 0.3s ease-in-out; 
   }
 
   .Home-title {
@@ -34,6 +36,11 @@
   .Home-title:hover {
     transform: scale(1.1); 
   }
+
+  .Home-sub:hover {
+    transform: scale(1.1); 
+  }
+  
   
   .content p {
     color: #e6f8f3;
@@ -102,6 +109,8 @@
   @media only screen and (max-width: 600px) {
     .Home-sub {
       margin-bottom: 15px !important ;
+      margin-top: -15px !important ;
+
     }
   }
 
@@ -168,7 +177,7 @@
     .button-cover {
       margin-top: 0px;
       font-family: 'DM Serif Display', serif;
-
+      font-weight: bold !important;
     }
   }
   
