@@ -1,11 +1,11 @@
 import React from 'react';
-import './PageStyle/HomePage.css'; // Import the CSS file
-import coverImage from '../comp/foo.jpg'; // Import the cover image
-import grams from '../comp/grams.png'; // Import the logo image
-import camera from '../comp/camera.png'; // Import the logo image
-import copy from '../comp/write.png'; // Import the logo image
-import calculator from '../comp/cal.png'; // Import the logo image
-import down from '../comp/download.png'; // Import the logo image
+import './PageStyle/HomePage.css'; 
+import coverImage from '../comp/foo.jpg'; 
+import grams from '../comp/grams.png'; 
+import camera from '../comp/camera.png'; 
+import copy from '../comp/write.png'; 
+import calculator from '../comp/cal.png'; 
+import down from '../comp/download.png'; 
 import pho from '../assets/Profilering/sdQR.png';
 
 const HomePage = () => {

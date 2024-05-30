@@ -1,6 +1,6 @@
 import React from 'react';
-import './PageStyle/Project.css'; // Import the CSS file
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import './PageStyle/Project.css'; 
+import { useNavigate } from 'react-router-dom';
 
 import github from '../assets/icons/github.png';
 import illu from '../assets/icons/ai.png';

@@ -1,7 +1,7 @@
 .home-screen {
     text-align: center;
     position: relative; 
-    margin-bottom: 100px    ;
+    margin-bottom: 20px    ;
   }
   
   .cover-photo {
@@ -66,9 +66,28 @@
   .mascot-image{
     width: 56%;
     border-radius: 20px;
+    margin-top: 10px ;
   }
   @media only screen and (max-width: 600px) {
     .mascot-image {
+      margin-top: 20px;
+      width: 100%; 
+    }
+  }
+
+  .button-image{
+    width: 56%;
+    border-radius: 20px;
+    margin-top: 10px ;
+    transition: transform 0.3s ease-in-out;
+  }
+  .button-image:hover {
+    transform: scale(1.015); /* Scale up to 110% on hover */
+    filter: brightness(1.111); /* Slightly darken the image */
+
+  }
+  @media only screen and (max-width: 600px) {
+    .button-image {
       margin-top: 20px;
       width: 100%; 
     }

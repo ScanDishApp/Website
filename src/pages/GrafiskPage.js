@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PageStyle/GrafiskPage.css'; // Import the CSS file
+import './PageStyle/GrafiskPage.css'; 
 import '../pages/PageStyle/Global.css';
 import background from '../assets/Profilering/Sdbg.png';
 import Logo from '../assets/Profilering/sdLogo.png';

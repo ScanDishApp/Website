@@ -1,15 +1,32 @@
 import React from 'react';
-import coverImage from '../comp/usCapture.png'; // Import the cover image
-import additionalImage from '../assets/Profilering/sdQR.png'; // Import the additional image
-import down from '../comp/download.png'; // Import the logo image
-import camera from '../comp/camera.png'; // Import the logo image
-import copy from '../comp/write.png'; // Import the logo image
-import mascot from '../assets/Profilering/sdMasw.png';
+import { useNavigate } from 'react-router-dom';
 
-import calculator from '../comp/cal.png'; // Import the logo image
+import coverImage from '../comp/usCapture.png'; 
+import additionalImage from '../assets/Profilering/sdQR.png'; 
+import camera from '../comp/camera.png'; 
+import copy from '../comp/write.png'; 
+import mascot from '../assets/Profilering/Maskotter.png';
+import nlBanner from '../assets/Profilering/NLbanner.png';
+import banner22 from '../assets/Profilering/banner22.png';
+import banner23 from '../assets/Profilering/banner23.png';
+
+
+import calculator from '../comp/cal.png'; 
 import '../pages/PageStyle/Home.css';
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleNavDownload = () => {
+    navigate('/LastNed');
+  };
+  const handleNavVisuell = () => {
+    navigate('/Visuell');
+  };
+  const handleNavPro = () => {
+    navigate('/prosjekt');
+  };
+
   return (
     <div className="home-screen">
       <img src={coverImage} alt="Cover Image" className="cover-photo" />
@@ -33,6 +50,10 @@ const Home = () => {
         I forbindelse med bachelorprosjektet er det valgt å utvikle en moderne og brukervennlig oppskriftsapp ved bruk av React. Målet med prosjektet er å lage en helhetlig løsning som forenkler og forbedrer opplevelsen av å finne, organisere og dele oppskrifter.</p>
 
         </div>
+
+        <img src={nlBanner} alt="mascot" className="button-image" onClick={handleNavDownload}/>
+        <img src={banner23} alt="mascot" className="button-image" onClick={handleNavVisuell}/>
+        <img src={banner22} alt="mascot" className="button-image" onClick={handleNavPro}/>
 
         <img src={mascot} alt="mascot" className="mascot-image" />
 
@@ -58,27 +79,6 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="additional-content">
-        <h2>Instalasjon</h2>
-        <a href="https://scanbeta.onrender.com/" target="_blank" rel="noopener noreferrer">
-  <img src={down} alt='social' className='down-logo'/>
-</a>
-
-
-      </div>
-        <div className='ins-down'>
-
-<p>  1. Trykk på nedlasnings ikonet over   </p>
-<p>  2. Vent til siden er lastet Informasjon</p>
-<p>   3. Åpne innstillinger </p>
-<p>   4. Last ned / legg til hjem-skjerm</p>
-        
-<p>   OBS. kan ta litt tid å laste inn</p>
-<p>  hjelp</p>
-
-        
-
-        </div>
 
       </div>
     </div>
