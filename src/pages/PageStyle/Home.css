@@ -130,7 +130,8 @@
   border: none; 
   border-radius: 20px; 
   cursor: pointer; 
-  font-family: 'DM Serif Display', serif;
+  font-family: 'DM Serif Display', serif !important;
+  font-weight: bold !important;
   opacity: 0; 
   box-shadow: 0px 0px 1cap rgba(144, 173, 151, 0.407); 
   animation: fadeIn 2s ease-in-out forwards; 
