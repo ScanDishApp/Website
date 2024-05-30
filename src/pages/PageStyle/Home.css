@@ -16,10 +16,16 @@
     transform: translate(-50%, -50%);
   }
 
-  
+  .Home-sub{
+    color: rgb(237, 237, 237) !important;
+    font-size: 20px;
+    margin-top: -20px !important;
+    margin-bottom: 50px !important;
+  }
+
   .Home-title {
     color: #e6f8f3;
-    font-size: 80px;
+    font-size: 160px;
     margin: 0; 
     
     animation: fadeIn 1s ease-in-out forwards; 
@@ -94,6 +100,13 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .Home-sub {
+      margin-bottom: 15px !important ;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
     p{
       margin-top: 20px;
       width: 100%; 
@@ -130,6 +143,8 @@
   @media only screen and (max-width: 600px) {
     .Home-title {
         margin-top: -200px !important; 
+        font-size: 80px;
+
     }
   }
 
@@ -151,7 +166,7 @@
 
   @media (max-width: 767px) {
     .button-cover {
-      margin-top: 15px;
+      margin-top: 0px;
       font-family: 'DM Serif Display', serif;
 
     }

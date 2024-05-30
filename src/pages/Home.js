@@ -32,7 +32,7 @@ const Home = () => {
       <img src={coverImage} alt="Cover Image" className="cover-photo" />
       <div className="content">
         <h1 className="Home-title">ScanDish</h1>
-        <p>What's cooking</p>
+        <p className='Home-sub'>What's cooking, good lookin ;</p>
         <a href="https://scanbeta.onrender.com/" target="_blank" rel="noopener noreferrer">
       <button className='button-cover'> Last ned</button>
       </a>
