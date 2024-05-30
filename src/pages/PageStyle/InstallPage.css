@@ -1,6 +1,6 @@
 .browser-tit {
     background-color: #9bba59;
-    width: 55%;
+    width: 59%;
     border-radius: 20px;
     display: flex;
     margin-bottom: 10px;
@@ -10,6 +10,7 @@
     font-weight: lighter;
     color: #222;
     font-family: 'helvetica', sans-serif;
+    margin-top: 10px;
   }
   
   .browser-icon-container {
@@ -22,7 +23,7 @@
     
     margin-top: 0px;
     border-radius: 20px;
-    width: 56%;
+    width: 60%;
   }
   
   .browser-icon {
