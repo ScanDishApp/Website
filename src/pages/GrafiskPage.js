@@ -89,12 +89,13 @@ const Visuell = () => {
           <div className="dropdown-options">
             <div className="vp-info" onClick={() => handleOptionClick('Vedlegg')}>
               <br></br>
-            <a href="https://drive.google.com/file/d/1kwb2TKkK6lGkuh5C7FnXYIQZLtoOdUBK/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok - Merkets Identitet</a>
+            <a href="https://drive.google.com/file/d/1kwb2TKkK6lGkuh5C7FnXYIQZLtoOdUBK/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok - PDF</a>
             <br></br>              <br></br>
-
-
-            <a href="https://drive.google.com/file/d/1j0TBmW-hn2eCArFjvfN9u5qmvUO1mzEp/view?usp=sharing" class="custom-link" target="_blank">Visuell Profil</a>
-
+            <a href="https://drive.google.com/file/d/1j0TBmW-hn2eCArFjvfN9u5qmvUO1mzEp/view?usp=sharing" class="custom-link" target="_blank">Visuell Profil - PDF</a>
+            <br></br>              <br></br>
+            <a href="https://www.figma.com/proto/yxR0k9pN07wAM4M1H2Znef/Untitled?node-id=337-213&t=IgMH7f7AtUeJkkGa-1&scaling=min-zoom&page-id=337%3A211" class="custom-link" target="_blank">Designhåndbok - Figma</a>
+            <br></br>              <br></br>
+            <a href="https://www.figma.com/design/yxR0k9pN07wAM4M1H2Znef/Untitled?node-id=381-54&t=cjgmGysnc1piYMS7-1" class="custom-link" target="_blank">Visuell Profil - Figma</a>
             </div>
           </div>
 
