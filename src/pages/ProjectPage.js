@@ -118,6 +118,7 @@ Ved √• bruke React for frontenden og Postiqo2 for databasen, har vi en robust l√
         <img src={github} alt="mobin" className="helper-icon" />
         <img src={discord} alt="mobin" className="helper-icon" />
 
+
       </div>
     </div>
   );

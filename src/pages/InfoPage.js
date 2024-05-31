@@ -24,7 +24,7 @@ const Team = () => {
           <a href="https://www.instagram.com/stine_kvist_/" target="_blank" rel="noopener noreferrer">
           <img src={insta} alt='social' className='social logo'/>
           </a>
-          <a href="https://www.instagram.com/dvnnyle/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/stine-kvist/" target="_blank" rel="noopener noreferrer">
           <img src={linked}alt='social' className='social logo'/>
           <a href="mailto:stikvi@gmail.com" alt="email" target="_blank" rel="noopener noreferrer">
           <img src={email} alt='social' className='social logo'/>
@@ -38,7 +38,7 @@ const Team = () => {
           <a href="https://www.instagram.com/xi_teka_kabi/" alt='social' target="_blank" rel="noopener noreferrer">
           <img src={insta} alt='social' className='social logo'/>
           </a>
-          <a href="https://www.instagram.com/dvnnyle/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/kabi-mohamed/" target="_blank" rel="noopener noreferrer">
           <img src={linked} alt='social' className='social logo'/>
         </a>
         <a href="mailto:kabim01@yahoo.com" alt="email" target="_blank" rel="noopener noreferrer">

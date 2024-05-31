@@ -89,11 +89,11 @@ const Visuell = () => {
           <div className="dropdown-options">
             <div className="vp-info" onClick={() => handleOptionClick('Vedlegg')}>
               <br></br>
-            <a href="https://drive.google.com/file/d/1cgD867DMmJ7Ss6vM3wrpNum6DKNwLnvM/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok</a>
+            <a href="https://drive.google.com/file/d/1kwb2TKkK6lGkuh5C7FnXYIQZLtoOdUBK/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok - Merkets Identitet</a>
             <br></br>              <br></br>
 
 
-            <a href="https://drive.google.com/file/d/1cgD867DMmJ7Ss6vM3wrpNum6DKNwLnvM/view?usp=sharing" class="custom-link" target="_blank">Designhåndbok</a>
+            <a href="https://drive.google.com/file/d/1j0TBmW-hn2eCArFjvfN9u5qmvUO1mzEp/view?usp=sharing" class="custom-link" target="_blank">Visuell Profil</a>
 
             </div>
           </div>
