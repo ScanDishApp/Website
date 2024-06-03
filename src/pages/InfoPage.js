@@ -5,9 +5,10 @@ import insta from '../comp/instagram.png'
 import linked from '../comp/linkedin.png'
 import team from '../assets/misc/team.png';
 
-import kabi from '../assets/brown.png'
-import danny from '../assets/dan.png'
-import stine from '../assets/ice.png'
+import kabi from '../assets/pfp/kab.png'
+import danny from '../assets/pfp/dan.png'
+import stine from '../assets/pfp/sti.png'
+
 import email from '../assets/icons/mail.png'
 const Team = () => {
   return (
