@@ -49,6 +49,11 @@ const Home = () => {
 
         I forbindelse med bachelorprosjektet er det valgt å utvikle en moderne og brukervennlig oppskriftsapp ved bruk av React. Målet med prosjektet er å lage en helhetlig løsning som forenkler og forbedrer opplevelsen av å finne, organisere og dele oppskrifter.</p>
 
+      <p>
+      Bakgrunnen til oppgaven er en gammel kokebok som er på vei til å gå i oppløsning. Gruppen snakket sammen om en mulighet 
+          for å digitalisere slike bøker som mest sannsynlig ligger hjemme hos de fleste. Gruppen har brukt mye tid på å finne gode 
+          løsninger på utviklingen av en app som kan hjelpe alle og enhver med dette. 
+      </p>
         </div>
 
         <img src={nlBanner} alt="mascot" className="button-image" onClick={handleNavDownload}/>

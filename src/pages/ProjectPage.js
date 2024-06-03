@@ -43,6 +43,9 @@ const Prosjekt = () => {
       <img src={banner} alt="mock" className="pop-image" />
 
         <h2>Bakgrunn</h2>
+        <p>Scandish er et bachelor prosjekt utført av: Stine Marie Kvist, Danny Nguyen Le og Kabi Mohamed - ved Universitetet i Agder.
+
+I forbindelse med bachelorprosjektet er det valgt å utvikle en moderne og brukervennlig oppskriftsapp ved bruk av React. Målet med prosjektet er å lage en helhetlig løsning som forenkler og forbedrer opplevelsen av å finne, organisere og dele oppskrifter.</p>
         <p>
           Bakgrunnen til oppgaven er en gammel kokebok som er på vei til å gå i oppløsning. Gruppen snakket sammen om en mulighet 
           for å digitalisere slike bøker som mest sannsynlig ligger hjemme hos de fleste. Gruppen har brukt mye tid på å finne gode 
